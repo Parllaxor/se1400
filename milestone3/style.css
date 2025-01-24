@@ -1,11 +1,3 @@
-#logo{
-    background-image: url(Logo.png);
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
 header{
     background-color: rgb(247, 247, 114);
     grid-column: 1 / 6;
@@ -36,8 +28,8 @@ main{
 
 #wrapper{
     display: grid;
-    grid-template-columns: repeat(5, minmax(0px, 5fr));
-    grid-template-rows: minmax(0px, 5fr) minmax(0px, 3fr) minmax(0px, 30fr) minmax(0px, 30fr) minmax(0px, 5fr);
+    grid-template-columns: repeat(5, minmax(0px, 7.5rem));
+    grid-template-rows: minmax(0px, 5rem) minmax(0px, 3rem) minmax(0px, 35rem) minmax(0px, 35rem) minmax(0px, 5rem);
     opacity: 50%;
 }
 
