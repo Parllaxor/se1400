@@ -1,0 +1,60 @@
+#logo{
+    grid-column: 0 / 1;
+    grid-row: 0 / 1;
+}
+
+header{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    background-color: #f93333;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: #000000;
+}
+
+header h1{
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+nav{
+    grid-row: 2 / 3;
+    grid-column: 1 / 6;
+    color: #000000;
+}
+
+nav ul{
+    background-color: gray;
+    opacity: 65%;
+    display: flex;
+    flex-flow: row; flex-flow: nowrap;
+    list-style-type: none;
+}
+
+nav ul li{
+    width: 100%;
+}
+
+#backgroundcar{
+    background-image: url(CarDriving.jpg);
+    grid-column: 0 / 6;
+    grid-row: 3/4;
+    opacity: 85%;
+}
+
+main{
+    color: #000000;
+    grid-column: 2/5;
+    grid-row: 4/5;
+    font-size: 1rem;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0px, .5fr));
+    grid-template-rows: minmax(0px, .65fr) minmax(0px, 0.5fr) minmax(0px, 4fr) minmax(0px, 4fr) minmax(0px, 1fr);
+}
+
+footer{
+    color: #FFFFFF;
+}
