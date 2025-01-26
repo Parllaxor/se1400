@@ -113,8 +113,7 @@ main{
 
 #wrapper{
     display: grid;
-    grid-template-columns: repeat(6, minmax(18.75rem, 22rem));
-    grid-template-rows: minmax(0px, 10rem) minmax(0px, 4rem) minmax(0px, 40rem) minmax(0px, 40rem) minmax(0px, 35rem) minmax(0px, 35rem) minmax(0px, 5rem);
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
     opacity: 50%;
 }
 
