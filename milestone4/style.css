@@ -1,0 +1,205 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#logo{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: .5rem;
+    margin: 0;
+    background-size: 10;
+    opacity: 95%;
+    border-style: solid;
+}
+
+#logo img{
+    background-position: center;
+    opacity: 100;
+}
+
+header{
+    grid-column: 2 / 5;
+    grid-row: 1 / 2;
+}
+
+header h1{
+    background-size: 16;
+    opacity: 100%;
+    padding: 1rem;
+    margin: 0;
+    margin-left: .5rem;
+    font-size: 100;
+    font-weight: 900;
+    border-radius: 5rem;
+    border-style: solid;
+    text-align: center;
+    background-color: #FF0000;
+}
+
+#headright{
+    background-color: rgb(2, 241, 22);
+    grid-column: 8 / 9;
+    grid-row: 1 / 2;
+    opacity: 50%;
+}
+
+nav{
+    grid-row: 2 / 3;
+    grid-column: 2 / -2;
+    background-color: rgb(114, 111, 111);
+    border-style: groove;
+    border-color: #000;
+    opacity: 80%;
+}
+
+nav a{
+    font-weight: 800;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: #000000;
+    list-style-type: upper-latin;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover{
+    opacity: 100%;
+    color: rgb(255, 0, 0);
+}
+
+nav ul{
+    padding: 0px;
+    display: flex;
+    flex-flow: row; flex-flow: nowrap;
+    list-style-type: none;
+}
+
+nav ul li{
+    width: 100%;
+}
+
+#leftcarbackground{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    opacity: 50%;
+}
+
+#carbackground{
+    grid-column: 1 / 9;
+    grid-row: 2 / 4;
+    background-image: url(images/CarDriving.jpg);
+    background-repeat: no-repeat;
+    opacity: 85%;
+    padding: 25rem;
+    margin-top: 0rem;
+    zoom: 33%
+}
+
+#rightcarbackground{
+    grid-column: 8 / 9;
+    grid-row: 3 / 4;
+    opacity: 50%;
+}
+
+#leftmain{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    opacity: 50%;
+}
+
+main{
+    grid-column: 2 / 8;
+    grid-row: 4 / 5;
+    background-color: rgb(131, 110, 110);
+    opacity: 70%;
+}
+
+main p{
+    text-align: right;
+}
+
+main h1{
+    color: #000;
+    padding-left: 1rem;
+    font-weight: 500;
+    border-bottom-style: solid;
+    margin-right: 47.5rem;
+    opacity: 100%;
+}
+
+#rightmain{
+    grid-column: 8 / 9;
+    grid-row: 4 / 5;
+    opacity: 50%;
+}
+
+#leftaudience{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    background-color: rgb(13, 0, 255);
+    opacity: 50%;
+}
+
+#audience{
+    grid-column: 1 / 9;
+    grid-row: 5 / 6;
+    background-color: rgb(255, 231, 51);
+    opacity: 50%;
+}
+
+
+#rightaudience{
+    grid-column: 8 / 9;
+    grid-row: 5 / 6;
+    background-color: rgb(13, 0, 255);
+    opacity: 50%;
+}
+
+#leftcompetition{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    background-color: rgb(51, 255, 0);
+    opacity: 50%;
+}
+
+#competition{
+    grid-column: 1 / 9;
+    grid-row: 6 / 7;
+    background-color: rgb(255, 112, 51);
+    opacity: 50%;
+}
+
+#rightcompetition{
+    grid-column: 8 / 9;
+    grid-row: 6 / 7;
+    background-color: rgb(51, 255, 0);
+    opacity: 50%;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    grid-template-rows: minmax(0px, 1fr) minmax(0px, .25fr) minmax(0px, 3.75fr);
+    opacity: 95%;
+}
+
+#footercontent{
+    background-color: rgb(21, 245, 17);
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+    opacity: 50%;
+}
+
+footer{
+    background-color: rgb(247, 247, 114);
+    grid-column: 1 / 9;
+    grid-row: 7 / 8;
+    opacity: 50%;
+}
+
+#footercontent2{
+    background-color: rgb(21, 245, 17);
+    grid-column: 8 / 9;
+    grid-row: 7 / 8;
+    opacity: 50%;
+}
