@@ -1,13 +1,14 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
 }
 #logo{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     padding: .5rem;
     margin: 0;
-    background-size: 10;
-    opacity: 95%;
+    background-size: 10rem;
+    opacity: 85%;
     border-style: solid;
 }
 
@@ -22,24 +23,26 @@ header{
 }
 
 header h1{
-    background-size: 16;
+    background-size: 16rem;
     opacity: 100%;
     padding: 1rem;
     margin: 0;
-    margin-left: .5rem;
-    font-size: 100;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: 2em;
     font-weight: 900;
     border-radius: 5rem;
     border-style: solid;
     text-align: center;
     background-color: #FF0000;
+    color: #000000;
+    text-shadow: 2px 2px 0 #ff9d00, -2px -2px 0 white;
 }
 
 #headright{
-    background-color: rgb(2, 241, 22);
     grid-column: 8 / 9;
     grid-row: 1 / 2;
-    opacity: 50%;
+    opacity: 80%;
 }
 
 nav{
@@ -48,7 +51,7 @@ nav{
     background-color: rgb(114, 111, 111);
     border-style: groove;
     border-color: #000;
-    opacity: 80%;
+    opacity: 70%;
 }
 
 nav a{
@@ -89,10 +92,12 @@ nav ul li{
     grid-row: 2 / 4;
     background-image: url(images/CarDriving.jpg);
     background-repeat: no-repeat;
-    opacity: 85%;
+    background-size: cover;
+    opacity: 80%;
     padding: 25rem;
     margin-top: 0rem;
-    zoom: 33%
+    border-bottom: #000000;
+    border-bottom-style: solid;
 }
 
 #rightcarbackground{
@@ -104,76 +109,140 @@ nav ul li{
 #leftmain{
     grid-column: 1 / 2;
     grid-row: 4 / 5;
-    opacity: 50%;
+    background: linear-gradient(to bottom, #ff2f18, #D1D1D1);
+    opacity: 80%;
 }
 
 main{
     grid-column: 2 / 8;
     grid-row: 4 / 5;
-    background-color: rgb(131, 110, 110);
-    opacity: 70%;
+    background: linear-gradient(to bottom, #ff2f18, #D1D1D1);
+    opacity: 80%;
+    display: flex;
+    flex-direction: row;
 }
 
 main p{
-    text-align: right;
+    text-align: left;
+    font-size: large;
+    margin-right: 2rem;
+    line-height: 1.5;
+}
+
+main img{
+    opacity: 100%;
+    margin-right: 2rem;
+    padding: 2rem;
 }
 
 main h1{
     color: #000;
     padding-left: 1rem;
     font-weight: 500;
-    border-bottom-style: solid;
-    margin-right: 47.5rem;
+    text-decoration: underline;
     opacity: 100%;
+    margin-right: 2rem;
 }
 
 #rightmain{
     grid-column: 8 / 9;
     grid-row: 4 / 5;
-    opacity: 50%;
+    background: linear-gradient(to bottom, #ff2f18, #D1D1D1);
+    opacity: 80%;
 }
 
 #leftaudience{
     grid-column: 1 / 2;
     grid-row: 5 / 6;
-    background-color: rgb(13, 0, 255);
-    opacity: 50%;
+    opacity: 80%;
+    background: linear-gradient(to bottom, #D1D1D1, #ff9318);
+    border-bottom: #000000;
+    border-bottom-style: solid;
 }
 
 #audience{
-    grid-column: 1 / 9;
+    grid-column: 2 / 8;
     grid-row: 5 / 6;
-    background-color: rgb(255, 231, 51);
-    opacity: 50%;
+    opacity: 80%;
+    text-align: right;
+    line-height: 1.5;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(to bottom, #D1D1D1, #ff9318);
+    border-bottom: #000000;
+    border-bottom-style: solid;
 }
 
+#audience p{
+    font-size: large;
+    line-height: 1.5;
+}
+
+#audience img{
+    padding: 2rem;
+}
+
+#audience h1{
+    margin-left: 1rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
 
 #rightaudience{
     grid-column: 8 / 9;
     grid-row: 5 / 6;
-    background-color: rgb(13, 0, 255);
-    opacity: 50%;
+    opacity: 80%;
+    background: linear-gradient(to bottom, #D1D1D1, #ff9318);
+    border-bottom: #000000;
+    border-bottom-style: solid;
 }
 
 #leftcompetition{
     grid-column: 1 / 2;
     grid-row: 6 / 7;
-    background-color: rgb(51, 255, 0);
     opacity: 50%;
 }
 
 #competition{
+    grid-column: 2 / 8;
+    grid-row: 6 / 7;
+    opacity: 80%;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5;
+}
+
+#competitionback{
     grid-column: 1 / 9;
     grid-row: 6 / 7;
-    background-color: rgb(255, 112, 51);
-    opacity: 50%;
+    opacity: 80%;
+    background-image: url(images/Sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#competition p{
+    font-size: large;
+    line-height: 1.5;
+}
+
+#competition h1{
+    margin-left: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+#competition img{
+    padding: 2rem;
 }
 
 #rightcompetition{
     grid-column: 8 / 9;
     grid-row: 6 / 7;
-    background-color: rgb(51, 255, 0);
-    opacity: 50%;
+    opacity: 80%;
 }
 
 #wrapper{
@@ -184,21 +253,28 @@ main h1{
 }
 
 #footercontent{
-    background-color: rgb(21, 245, 17);
     grid-column: 1 / 2;
     grid-row: 7 / 8;
     opacity: 50%;
 }
 
+#footercontent p{
+    line-height: .75;
+    text-align: left;
+    font-size: small;
+}
+
 footer{
-    background-color: rgb(247, 247, 114);
     grid-column: 1 / 9;
     grid-row: 7 / 8;
     opacity: 50%;
 }
 
+footer p{
+    text-align: center;
+}
+
 #footercontent2{
-    background-color: rgb(21, 245, 17);
     grid-column: 8 / 9;
     grid-row: 7 / 8;
     opacity: 50%;
