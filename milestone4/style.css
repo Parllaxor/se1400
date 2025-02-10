@@ -11,14 +11,10 @@
 
     background-size: cover;
     background: #FFF;
-
-    opacity: 85%;
 }
 
 #logo img{
     background-position: center;
-    
-    opacity: 100;
 }
 
 header{
@@ -27,12 +23,9 @@ header{
 
     border-left: #000;
     border-left-style: solid;
-
-    background: linear-gradient(to bottom, #ff2f18, #FFFFFF, #FFFFFF);
 }
 
 header h1{
-    opacity: 100%;
     font-size: 2em;
     font-weight: 900;
     text-align: center;
@@ -51,13 +44,56 @@ header h1{
     border-style: solid;
 }
 
+#searchbar{
+    grid-column: 5 / 8;
+    grid-row: 1 / 2;
+
+    text-align: left;
+    color: #000;
+
+    height: 2.5rem;
+
+    margin-top: 7rem;
+    margin-left: 2rem;
+    padding-left: 2rem;
+    
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+
+    border: #000;
+    border-style: solid;
+}
+
 #headright{
     grid-column: 5 / 9;
     grid-row: 1 / 2;
+}
 
-    opacity: 100%;
+#langbutton{
+    grid-column: 8 / 9;
+    grid-row: 1 / 2;
 
-    background: linear-gradient(to bottom, #ff2f18, #FFFFFF, #FFFFFF);
+    width: 4rem;
+    height: 1rem;
+
+    margin-top: 1rem;
+}
+
+#langbutton a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+
+    border: #000;
+    border-style: solid;
+    
+    padding: .5rem;
+
+    background-color:rgb(255, 0, 0, .8);
+}
+
+#langbutton a:hover{
+    color: #ffffff;
 }
 
 nav{
@@ -137,8 +173,6 @@ nav ul li{
     grid-column: 1 / 2;
     grid-row: 4 / 5;
 
-    background: linear-gradient(to bottom, #ff2f18, #D1D1D1);
-
     opacity: 80%;
 }
 
@@ -146,12 +180,17 @@ main{
     grid-column: 2 / 8;
     grid-row: 4 / 5;
 
-    background: linear-gradient(to bottom, #ff2f18, #D1D1D1);
-
-    opacity: 80%;
-
     display: flex;
     flex-direction: row;
+}
+
+#maintitle{
+    grid-column: 5 / 8;
+    grid-row: 4 / 5;
+    opacity: 100%;
+
+    display: flex;
+    flex-direction: column;
 }
 
 main p{
@@ -171,22 +210,19 @@ main img{
     border-style: solid;
 }
 
-main h1{
+#maintitle h2{
     color: #000;
     font-weight: 500;
     text-decoration: underline;
 
     opacity: 100%;
 
-    margin-right: 2rem;
-    padding-left: 1rem;
+    text-align: left;
 }
 
 #rightmain{
     grid-column: 8 / 9;
     grid-row: 4 / 5;
-
-    background: linear-gradient(to bottom, #ff2f18, #D1D1D1);
 
     opacity: 80%;
 }
@@ -197,8 +233,6 @@ main h1{
 
     opacity: 80%;
 
-    background: linear-gradient(to bottom, #D1D1D1, #ff9318);
-
     border-bottom: #000000;
     border-bottom-style: solid;
 }
@@ -206,20 +240,26 @@ main h1{
 #audience{
     grid-column: 2 / 8;
     grid-row: 5 / 6;
-
-    opacity: 80%;
     text-align: right;
     line-height: 1.5;
 
     display: flex;
     flex-direction: row-reverse;
 
-    background: linear-gradient(to bottom, #D1D1D1, #ff9318);
-
     border-bottom: #000000;
     border-bottom-style: solid;
 
     padding-right: 2rem;
+}
+
+#audiencetitle{
+    grid-column: 2 / 5;
+    grid-row: 5 / 6;
+    text-align: right;
+    line-height: 1.5;
+
+    display: flex;
+    flex-direction: column;
 }
 
 #audience p{
@@ -237,7 +277,7 @@ main h1{
     border-style: solid;
 }
 
-#audience h1{
+#audiencetitle h2{
     margin-left: 1rem;
 
     font-weight: 500;
@@ -247,10 +287,6 @@ main h1{
 #rightaudience{
     grid-column: 8 / 9;
     grid-row: 5 / 6;
-
-    opacity: 80%;
-
-    background: linear-gradient(to bottom, #D1D1D1, #ff9318);
 
     border-bottom: #000000;
     border-bottom-style: solid;
@@ -267,20 +303,22 @@ main h1{
     grid-column: 2 / 8;
     grid-row: 6 / 7;
 
-    opacity: 80%;
     line-height: 1.5;
 
-    display: flex;
-    flex-direction: row;
-
     margin-right: 2rem;
+}
+
+#competitiontitle{
+    grid-column: 5 / 8;
+    grid-row: 6 / 7;
+
+    display: flex;
+    flex-direction: column;
 }
 
 #competitionback{
     grid-column: 1 / 9;
     grid-row: 6 / 7;
-
-    opacity: 80%;
 
     background-image: url(images/Sunset.jpg);
     background-repeat: no-repeat;
@@ -295,15 +333,10 @@ main h1{
     opacity: 80%
 }
 
-#competition h1{
+#competitiontitle h2{
     font-weight: 500;
 
-    padding: 1rem;
-    padding-left: 0;
-    margin-left: 1rem;
-
     text-decoration: underline;
-    opacity: 80%
 }
 
 #competition img{
@@ -311,15 +344,11 @@ main h1{
 
     border-color: #000;
     border-style: solid;
-
-    opacity: 80%
 }
 
 #rightcompetition{
     grid-column: 8 / 9;
     grid-row: 6 / 7;
-
-    opacity: 80%;
 }
 
 #wrapper{
