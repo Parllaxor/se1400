@@ -30,7 +30,7 @@ header h1{
     font-weight: 900;
     text-align: center;
     color: #000000;
-    text-shadow: 2px 2px 0 #ff9d00, -2px -2px 0 white;
+    text-shadow: 2px 2px 0 #ff9d00, -2px -2px 0 #FFFFFF;
 
     background-size: 16rem;
     background-color: #FF0000;
@@ -240,6 +240,7 @@ main img{
 #audience{
     grid-column: 2 / 8;
     grid-row: 5 / 6;
+
     text-align: right;
     line-height: 1.5;
 
@@ -330,7 +331,6 @@ main img{
     font-size: large;
 
     line-height: 1.5;
-    opacity: 80%
 }
 
 #competitiontitle h2{
