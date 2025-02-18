@@ -30,26 +30,25 @@
     <p>Required information is marked with an asterisk(*).</p>
     <form action = "https://kearl.net/se1400/mail.php" method = "post">
       <label for="myFName">*First Name:</label>
-      <input required type="text" name = "myFName">
+      <input required type="text" id = "myFName" name = "myFName">
 
       <label for="myLName">*Last Name:</label>
-      <input required type="text" name = "myLName">
+      <input required type="text" id = "myLName" name = "myLName">
 
       <label for="myEmail">*Email:</label>
-      <input required type="email" name = "myEmail">
+      <input required type="email" id = "myEmail" name = "myEmail">
 
       <label for="myPhone">Phone:</label>
-      <input type="tel" name = "myPhone">
+      <input type="tel" id = "myPhone" name = "myPhone">
 
-      <label for="comment">*Comments:</label>
-      <textarea required element="myComments" rows = 2 cols = 20></textarea>
-
-      <input type="submit" name = "button">
-    </form>
-    
-    <form>
       <label for="gradDate">Graduation Date</label>
-      <input type="date" id="gradDate" name="gradDate">
+      <input type="date" id = "gradDate" name = "gradDate">
+
+      <label for="myComments">*Comments:</label>
+      <textarea required id = "myComments" name = "myComments" rows = 2 cols = 20></textarea>
+
+      <input type="submit" id = "mySubmit" name = "mySubmit">
+      
     </form>
 
   </main>
