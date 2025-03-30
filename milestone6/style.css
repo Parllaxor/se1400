@@ -580,6 +580,15 @@ main img{
     background: linear-gradient(to bottom, #fbe6e6, #FFFFFF)
 }
 
+#aboutpagetitle h2{
+    color: rgb(255, 0, 0);
+
+    margin-left: 5px;
+
+    border-bottom-color: #000;
+    border-bottom-style: solid;  
+}
+
 #aboutpagetitle img{
     padding-top: 4rem;
 }
@@ -587,13 +596,23 @@ main img{
 #aboutpagetext{
     grid-column: 4 / 8;
     grid-row: 4 / 5;
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
 
     padding-left: 20px;
     padding-right: 20px;
 
     background: linear-gradient(to bottom, #fbe6e6, #FFFFFF)
+}
+
+#aboutpagetext h3{
+    color:rgb(255, 0, 0);
+
+    text-align: center;
+
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
 
 #supportpagetitle{
@@ -608,6 +627,15 @@ main img{
     background: linear-gradient(to bottom, #fbe6e6, #FFFFFF)
 }
 
+#supportpagetitle h2{
+    color: rgb(255, 0, 0);
+
+    margin-left: 5px;
+
+    border-bottom-color: #000;
+    border-bottom-style: solid;  
+}
+
 #supportpagetitle img{
     padding-top: 4rem;
 }
@@ -615,13 +643,31 @@ main img{
 #supportpagetext{
     grid-column: 4 / 8;
     grid-row: 4 / 5;
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
 
     padding-left: 20px;
     padding-right: 20px;
 
     background: linear-gradient(to bottom, #fbe6e6, #FFFFFF)
+}
+
+#supportpagetext h3{
+    color:rgb(255, 0, 0);
+
+    text-align: center;
+
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+#supportpagetext a:hover{
+    color: rgb(255, 0, 0);
+}
+
+#supportpagetext a:visited{
+    color: rgb(255, 0, 0);
 }
 
 #contactpagetitle{
@@ -643,7 +689,7 @@ main img{
 #contactpagetext{
     grid-column: 4 / 8;
     grid-row: 4 / 5;
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
 
     padding-left: 20px;
@@ -652,11 +698,32 @@ main img{
     background: linear-gradient(to bottom, #fbe6e6, #FFFFFF)
 }
 
+#contactpagetext h3{
+    color:rgb(255, 0, 0);
+
+    text-align: center;
+
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+#contactpagetext form{
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#contactpagetext form button{
+    margin-top: 10px;
+}
+
 #wrapper{
     display: grid;
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
     grid-template-rows: minmax(0px, 140px) minmax(0px, .25fr) minmax(0px, 3.75fr);
-    opacity: 95%;
 }
 
 #footercontent{
