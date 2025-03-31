@@ -197,7 +197,7 @@ nav ul li{
     grid-column: 1 / 9;
     grid-row: 2 / 4;
 
-    background-image: url(images/CarComp.jpg);
+    background-image: url(images/Competitionhero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -218,7 +218,7 @@ nav ul li{
     grid-column: 1 / 9;
     grid-row: 2 / 4;
 
-    background-image: url(images/PouringOil.jpg);
+    background-image: url(images/Abouthero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -239,7 +239,7 @@ nav ul li{
     grid-column: 1 / 9;
     grid-row: 2 / 4;
 
-    background-image: url(images/PouringOil.jpg);
+    background-image: url(images/Supporthero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -260,7 +260,7 @@ nav ul li{
     grid-column: 1 / 9;
     grid-row: 2 / 4;
 
-    background-image: url(images/Sunset.jpg);
+    background-image: url(images/Contacthero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
